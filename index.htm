@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/47c703856d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="MainBody">
+      <div class="TopSide" dir="ltr">
+        <div class="PlyaerSide">
+          <p
+            style="
+              text-align: center;
+              font-size: 30px;
+              font-weight: bold;
+              color: lightgray;
+            "
+          >
+            Player 1
+          </p>
+          <object data="Images/Player1.svg"></object>
+        </div>
+        <div class="DiceNumber">
+          <img src="Images/dice1.png" class="dice" />
+        </div>
+        <div class="WinLoss">
+          <div>
+            <p>Current Score: <span class="CurrentScore"> 0</span></p>
+          </div>
+          <div>
+            <p>Total Score: <span class="TotalSCore"> 0</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="MidSide">
+        <button id="Start">Start / Reset</button>
+        <img src="Images/RollerDIce.png" id="DiceButton" />
+        <button id="Hold">Hold</button>
+      </div>
+      <div class="TopSide" dir="rtl">
+        <div class="PlyaerSide">
+          <p
+            style="
+              text-align: center;
+              font-size: 30px;
+              font-weight: bold;
+              color: lightgray;
+            "
+          >
+            Player 2
+          </p>
+          <object data="Images/Player2.svg"></object>
+        </div>
+        <div class="DiceNumber">
+          <img src="Images/dice1.png" class="dice" />
+        </div>
+        <div class="WinLoss">
+          <div style="margin-left: 20px">
+            <p>Current Score: <span class="CurrentScore"> 0</span></p>
+          </div>
+          <div style="margin-left: 20px">
+            <p>Total Score: <span class="TotalSCore"> 0</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript/javajs.js"></script>
+  </body>
+</html>
